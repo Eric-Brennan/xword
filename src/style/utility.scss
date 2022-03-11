@@ -1,0 +1,224 @@
+.h- {
+    &100 {
+        height: 100%;
+    }
+
+    &90 {
+        height: 90%;
+    }
+
+    &80 {
+        height: 80%;
+    }
+
+    &70 {
+        height: 70%;
+    }
+
+    &60 {
+        height: 60%;
+    }
+
+    &50 {
+        height: 50%;
+    }
+
+    &40 {
+        height: 40%;
+    }
+
+    &30 {
+        height: 30%;
+    }
+
+    &20 {
+        height: 20%;
+    }
+
+    &10 {
+        height: 10%;
+    }
+}
+
+.w-{
+    &100 {
+        width: 100%;
+    }
+
+    &90 {
+        width: 90%;
+    }
+
+    &80 {
+        width: 80%;
+    }
+
+    &70 {
+        width: 70%;
+    }
+
+    &60 {
+        width: 60%;
+    }
+
+    &50 {
+        width: 50%;
+    }
+
+    &40 {
+        width: 40%;
+    }
+
+    &30 {
+        width: 30%;
+    }
+
+    &20 {
+        width: 20%;
+    }
+
+    &10 {
+        width: 10%;
+    }
+}
+
+// padding
+
+.p- {
+    &40 {
+        padding: 40px;
+    }
+
+    &30 {
+        padding: 30px;
+    }
+
+    &20 {
+        padding: 20px;
+    }
+
+    &15 {
+        padding: 15px;
+    }
+
+    &10 {
+        padding: 10px;
+    }
+
+    &5 {
+        padding: 5px;
+    }
+
+    &4 {
+        padding: 4px;
+    }
+
+    &3 {
+        padding: 3px;
+    }
+
+    &2 {
+        padding: 2px;
+    }
+
+    &1 {
+        padding: 1px;
+    }
+
+    &0 {
+        padding: 0px;
+    }
+}
+
+// margin
+
+.m- {
+    &40 {
+        margin: 40px;
+    }
+
+    &30 {
+        margin: 30px;
+    }
+
+    &20 {
+        margin: 20px;
+    }
+
+    &15 {
+        margin: 15px;
+    }
+
+    &10 {
+        margin: 10px;
+    }
+
+    &5 {
+        margin: 5px;
+    }
+
+    &4 {
+        margin: 4px;
+    }
+
+    &3 {
+        margin: 3px;
+    }
+
+    &2 {
+        margin: 2px;
+    }
+
+    &1 {
+        margin: 1px;
+    }
+
+    &0 {
+        margin: 0px;
+    }
+}
+
+// overflow
+
+.overflow-{
+    &hidden{
+        overflow: hidden
+    }
+}
+
+// display
+
+.d-{
+    &flex{
+        display: flex;
+
+        &-column{
+            flex-direction: column;
+        }
+    }
+}
+
+.justify-{
+    &center{
+        justify-content: center;
+    }
+    &around{
+        justify-content: space-around;
+    }
+}
+
+.align-{
+    &center{
+        align-items: center;
+    }
+}
+
+// float
+.float-{
+    &left{
+        float: left;
+    }
+    &right{
+        float: right;
+    }
+}

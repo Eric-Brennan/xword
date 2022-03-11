@@ -1,14 +1,25 @@
 <template>
-  <div id="nav">
+    <div class="h-100">
+        <router-view />
+    </div>
+  <!--<div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  </div>-->
 </template>
 
 <style lang="scss">
+    @import './src/style/index';
+
+    @font-face {
+        font-family: "Xword";
+        src: url('../src/assets/font.otf');
+        font-style: oblique;
+        font-weight: bold;
+    }
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Xword, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
